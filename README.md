@@ -22,32 +22,31 @@ DNA sequence of adeno-associated virus genome used in the scramble group, referr
 ### pAAV-shRNA_EGFP-T2A-Bsd-U6_mAcmsd908st_shRNA#1.dna
 DNA sequence of adeno-associated virus genome used in the Acmsd knockdown group, referred to as "Knockdown" in the manuscript.
 
-### FUMA_input_2PY_Interval_GB_SOL_METSIM_CLSA_JHS_2023_CHRBP.txt
-Summary level results of meta-analysis of genome-wide association studies of 2PY. Column definitions are given below.
-P values are plotted in Figure 4a and Figure 4b
+### Ferrell_2PY_Meta-Analysis_Results.txt 
+### Ferrell_4PY_Meta-Analysis_Results.txt 
+(These files contain the summary statistics for the 2PY meta-analysis with the US Validation, INTERVAL/EPIC, CLSA, METSIM, HCHS/SOL, and JHS cohorts and the summary statistics for the 4PY meta-analysis with the US Validation, and Tohoku Medical MegaBank cohorts).
 
-### FUMA_input_4PY_Tohoku_GB_TWINSUK_2023_CHRBP.txt
-Summary level results of meta-analysis of genome-wide association studies of 4PY. Column definitions are given below.
-P values are plotted in Figure 4a and Figure 4c
 
-##### Column definitions for the files FUMA_input_2PY_Interval_GB_SOL_METSIM_CLSA_JHS_2023_CHRBP.txt and FUMA_input_4PY_Tohoku_GB_TWINSUK_2023_CHRBP.txt
-SNP      Variant identifier
+Column headers:
 
-CHR      Chromosome number
+SNP - variant ID
 
-BP       Base pair coordinate
+CHR - chromosome
 
-Allele1  The effect allele used for analysis
+BP - SNP position (hg19)
 
-Allele2  The other allele
+Effect_Allele - effect allele in the meta-analysis for which beta is provided.
 
-P        Allelic test meta P-value
+Other_Allele - other allele in the meta-analysis
 
-BETA     Allelic effect size (unitless)
+P-value - p-value from meta-analysis
 
-SE       Standard error of BETA
+BETA - effect size of effect allele from the meta-analysis
 
-N        Number of individuals with genotype available for the given variant
+SE - standard error of effect size from the meta-analysis 
+
+N - number of subjects included in the meta-analysis
+
 
 
 
